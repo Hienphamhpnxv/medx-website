@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Med Solution | Nền tảng quản lý phòng khám thông minh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+        }
+        .hero-bg {
+            background-color: #f0f9ff; /* Light blue background */
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Phần Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <a href="#" class="flex items-center">
+            <span class="text-5xl font-bold mr-2 text-[#0C8CE9]">X</span>
+            <div class="flex flex-col font-bold leading-none text-lg text-[#172645]">
+                <span>Med</span>
+                <span>Solution</span>
+            </div>
+        </a>
+        <div class="hidden md:flex items-center space-x-6">
+                <a href="#" class="text-gray-600 hover:text-[#0C8CE9] transition duration-300">Trang chủ</a>
+                <a href="#features" class="text-gray-600 hover:text-[#0C8CE9] transition duration-300">Tính năng</a>
+                <a href="#pricing" class="text-gray-600 hover:text-[#0C8CE9] transition duration-300">Bảng giá</a>
+                <a href="#contact" class="text-gray-600 hover:text-[#0C8CE9] transition duration-300">Liên hệ</a>
+                <a href="privacy-policy.html" class="text-gray-600 hover:text-[#0C8CE9] transition duration-300">Chính sách bảo mật</a>
+            </div>
+            <a href="#" class="hidden md:block bg-[#0C8CE9] text-white px-5 py-2 rounded-lg hover:bg-[#0b7cd5] transition duration-300">Dùng thử miễn phí</a>
+            <button id="mobile-menu-button" class="md:hidden text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <!-- Menu di động -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
+            <a href="#" class="block text-gray-600 hover:text-[#0C8CE9] py-2">Trang chủ</a>
+            <a href="#features" class="block text-gray-600 hover:text-[#0C8CE9] py-2">Tính năng</a>
+            <a href="#pricing" class="block text-gray-600 hover:text-[#0C8CE9] py-2">Bảng giá</a>
+            <a href="#contact" class="block text-gray-600 hover:text-[#0C8CE9] py-2">Liên hệ</a>
+            <a href="privacy-policy.html" class="block text-gray-600 hover:text-[#0C8CE9] py-2">Chính sách bảo mật</a>
+            <a href="#" class="block bg-[#0C8CE9] text-white text-center mt-2 px-5 py-2 rounded-lg hover:bg-[#0b7cd5] transition duration-300">Dùng thử miễn phí</a>
+        </div>
+    </header>
+
+    <!-- Phần Main -->
+    <main>
+        <!-- Phần Hero -->
+        <section class="hero-bg py-20 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">Nền tảng quản lý phòng khám thông minh</h1>
+                <p class="text-xl md:text-2xl font-semibold text-[#0C8CE9] tracking-wider max-w-3xl mx-auto mb-8">Đơn giản – Tiết kiệm – Hiệu quả</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="#" class="bg-[#0C8CE9] text-white px-6 py-2 rounded-lg text-lg font-semibold hover:bg-[#0b7cd5] transition duration-300">Dùng thử miễn phí</a>
+                    <a href="#" class="bg-white text-[#0C8CE9] border border-[#0C8CE9] px-6 py-2 rounded-lg text-lg font-semibold hover:bg-[#f0f9ff] transition duration-300">Yêu cầu demo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Phần Tính Năng -->
+        <section id="features" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Giải pháp quản lý phòng khám tối ưu</h2>
+                    <p class="text-gray-600 mt-2 max-w-2xl mx-auto">Tất cả các công cụ bạn cần để vận hành phòng khám một cách trơn tru và hiệu quả.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                    <!-- Tính năng 1: Quản lý lịch hẹn -->
+                    <div class="p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 bg-[#e0f2fe] text-[#0C8CE9] rounded-full mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Quản lý lịch hẹn</h3>
+                        <p class="text-gray-600">Đặt lịch, xác nhận và nhắc hẹn tự động qua SMS/Email. Sắp xếp lịch làm việc cho bác sĩ một cách khoa học.</p>
+                    </div>
+                    <!-- Tính năng 2: Bệnh án điện tử -->
+                    <div class="p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 bg-[#e0f2fe] text-[#0C8CE9] rounded-full mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Bệnh án điện tử (EMR)</h3>
+                        <p class="text-gray-600">Lưu trữ và quản lý thông tin bệnh nhân, lịch sử khám bệnh, đơn thuốc an toàn, bảo mật và dễ dàng truy xuất.</p>
+                    </div>
+                    <!-- Tính năng 3: Quản lý thuốc & vật tư -->
+                    <div class="p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 bg-[#e0f2fe] text-[#0C8CE9] rounded-full mb-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Quản lý thuốc & vật tư</h3>
+                        <p class="text-gray-600">Theo dõi tồn kho thuốc, vật tư y tế, cảnh báo hết hạn và tự động đề xuất nhập hàng.</p>
+                    </div>
+                    <!-- Tính năng 4: Thanh toán -->
+                     <div class="p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 bg-[#e0f2fe] text-[#0C8CE9] rounded-full mb-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Thanh toán</h3>
+                        <p class="text-gray-600">Tạo hóa đơn, quản lý công nợ và hỗ trợ nhiều phương thức thanh toán, giúp quy trình tài chính minh bạch.</p>
+                    </div>
+                    <!-- Tính năng 5: Chăm sóc khách hàng -->
+                     <div class="p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 bg-[#e0f2fe] text-[#0C8CE9] rounded-full mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a2 2 0 01-2-2V4a2 2 0 012-2h8a2 2 0 012 2v4z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Chăm sóc bệnh nhân</h3>
+                        <p class="text-gray-600">Gửi tin nhắn chúc mừng sinh nhật, nhắc lịch tái khám và các chương trình ưu đãi để tăng sự gắn kết.</p>
+                    </div>
+                     <!-- Tính năng 6: Báo cáo & Thống kê -->
+                     <div class="p-8 bg-gray-50 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 bg-[#e0f2fe] text-[#0C8CE9] rounded-full mb-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Báo cáo & Thống kê</h3>
+                        <p class="text-gray-600">Hệ thống báo cáo trực quan về doanh thu, lượt khám, giúp ban lãnh đạo đưa ra quyết định chính xác.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Phần Bảng Giá -->
+        <section id="pricing" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Bảng giá linh hoạt và minh bạch</h2>
+                    <p class="text-gray-600 mt-2 max-w-2xl mx-auto">Chọn gói dịch vụ phù hợp nhất với quy mô và nhu cầu phát triển của phòng khám bạn.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto items-stretch">
+                    <!-- Gói 1: Cơ Bản -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg border-t-4 border-gray-300 text-center flex flex-col">
+                        <h3 class="text-2xl font-semibold mb-2">Cơ Bản</h3>
+                        <p class="text-gray-500 mb-4 h-12">Lý tưởng cho phòng khám nhỏ mới bắt đầu.</p>
+                        <p class="text-4xl font-bold my-4 text-[#0C8CE9]">Liên hệ</span></p>
+                        <ul class="text-left my-6 space-y-3 flex-grow">
+                           <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span>Quản lý hồ sơ bệnh nhân</span></li>
+                           <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span>Quản lý lịch hẹn</span></li>
+                           <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span>Quản lý thu chi</span></li>
+                           <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span>báo cáo & Thống kê</span></li>
+                        </ul>
+                        <a href="#" class="bg-gray-200 text-gray-800 w-full block py-3 rounded-lg font-semibold hover:bg-gray-300 transition duration-300 mt-auto">Bắt đầu ngay</a>
+                    </div>
+                    <!-- Gói 2: Phổ Biến -->
+                    <div class="bg-white p-8 rounded-lg shadow-2xl border-t-4 border-[#0C8CE9] text-center transform md:scale-105 flex flex-col">
+                        <span class="bg-[#0C8CE9] text-white text-xs font-bold px-3 py-1 rounded-full uppercase -mt-12 inline-block self-center">Phổ Biến Nhất</span>
+                        <h3 class="text-2xl font-semibold mb-2 mt-4">Chuyên Nghiệp</h3>
+                        <p class="text-gray-500 mb-4 h-12">Giải pháp toàn diện cho phòng khám đang phát triển.</p>
+                        <p class="text-4xl font-bold my-4 text-[#0C8CE9]">Liên hệ</p>
+                        <ul class="text-left my-6 space-y-3 flex-grow">
+                           <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span><strong>Mọi tính năng gói Cơ Bản</strong></span></li>
+                           <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span>Nhắc hẹn tự động SMS/Email</span></li>
+                           <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span>Quản lý thuốc & vật tư</span></li>
+                           <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span>Báo cáo & thống kê chi tiết</span></li>
+                           <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span>Chăm sóc khách hàng</span></li>
+                        </ul>
+                        <a href="#" class="bg-[#0C8CE9] text-white w-full block py-3 rounded-lg font-semibold hover:bg-[#0b7cd5] transition duration-300 mt-auto">Bắt đầu ngay</a>
+                    </div>
+                    <!-- Gói 3: Doanh Nghiệp -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg border-t-4 border-gray-300 text-center flex flex-col">
+                        <h3 class="text-2xl font-semibold mb-2">Doanh Nghiệp</h3>
+                        <p class="text-gray-500 mb-4 h-12">Dành cho chuỗi phòng khám hoặc bệnh viện đa khoa.</p>
+                        <p class="text-4xl font-bold my-4 text-[#0C8CE9]">Liên hệ</p>
+                        <ul class="text-left my-6 space-y-3 flex-grow">
+                            <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span><strong>Mọi tính năng gói Chuyên Nghiệp</strong></span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span>Phân quyền người dùng nâng cao</span></li>
+                            <li class="flex items-start"><span class="text-green-500 mr-2 mt-1">&#10003;</span><span>Tùy chỉnh tính năng theo yêu cầu</span></li>
+                        </ul>
+                        <a href="#" class="bg-gray-200 text-gray-800 w-full block py-3 rounded-lg font-semibold hover:bg-gray-300 transition duration-300 mt-auto">Liên hệ tư vấn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Phần Kêu gọi hành động (CTA) -->
+        <section class="bg-[#0C8CE9] text-white">
+            <div class="container mx-auto px-6 py-16 text-center">
+                <h2 class="text-3xl font-bold mb-4">Sẵn sàng nâng cấp phòng khám của bạn?</h2>
+                <p class="max-w-2xl mx-auto mb-8">Trải nghiệm sự khác biệt trong quản lý và vận hành với MedX Solution ngay hôm nay.</p>
+                <a href="#" class="bg-white text-[#0C8CE9] px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition duration-300">Liên hệ tư vấn ngay</a>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Phần Footer -->
+    <footer id="contact" class="bg-gray-900 text-white">
+    <div class="container mx-auto px-6 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Cột 1: Giới thiệu -->
+            <div>
+                <a href="#" class="flex items-center mb-4">
+                    <span class="text-3xl font-bold mr-2 text-[#FFFFFF]">X</span>
+                    <div class="flex flex-col font-bold leading-none text-base text-[#FFFFFF]">
+                        <span>Med</span>
+                        <span>Solution</span>
+                    </div>
+                </a>
+                <p class="text-gray-400">Phần mềm quản lý phòng khám toàn diện, giúp tối ưu hóa vận hành và nâng cao chất lượng dịch vụ.</p>
+            </div>
+            <!-- Cột 2: Liên kết nhanh -->
+            <div>
+                    <h3 class="font-semibold mb-4">Liên kết</h3>
+                    <ul>
+                        <li class="mb-2"><a href="#features" class="hover:text-[#0C8CE9]">Tính năng</a></li>
+                        <li class="mb-2"><a href="#pricing" class="hover:text-[#0C8CE9]">Bảng giá</a></li>
+                        <li class="mb-2"><a href="privacy-policy.html" class="hover:text-[#0C8CE9]">Chính sách bảo mật</a></li>
+                        <li class="mb-2"><a href="#" class="hover:text-[#0C8CE9]">Điều khoản dịch vụ</a></li>
+                    </ul>
+                </div>
+                 <!-- Cột 3: Liên hệ -->
+                <div>
+                    <h3 class="font-semibold mb-4">Liên hệ</h3>
+                     <p class="text-gray-400">Tòa H10 Vinaconex 6, ngõ 475 Nguyễn Trãi, Thanh Xuân, Hà Nội</p>
+                     <p class="text-gray-400">Email: <a href="mailto:business@medx-solution.com" class="hover:text-[#0C8CE9]">business@medx-solution.com</a></p>
+                     <p class="text-gray-400">Hotline: <a href="tel:0386081578" class="hover:text-[#0C8CE9]">0386081578</a></p>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 MedX Solution. Đã đăng ký bản quyền.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript để xử lý menu trên di động
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+
+
